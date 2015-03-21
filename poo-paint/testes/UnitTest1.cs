@@ -18,7 +18,6 @@ namespace testes
             Assert.AreEqual(2, Retangulo.LeContador());
             Retangulo r3 = new Retangulo(5, 5, 3, 67);
             Assert.AreEqual(3, Retangulo.LeContador());
-            ola
         }
     }
 }
