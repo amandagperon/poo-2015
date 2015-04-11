@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace poo_paint
 {
-    public class Retangulo
+    public class Retangulo : Figura
     {
-        int px;
-        int py;
         int bretangulo;
         int hretangulo;
         static int contador;
@@ -22,6 +20,11 @@ namespace poo_paint
             hretangulo = altura;
             bretangulo = largura;
             contador++;
+        }
+
+        public override String Imprime()
+        {
+            return "retangulo[x:" + this.px + ",y:" + this.py + ",l:" + this.plargura + ",a:" + this.paltura + "]";
         }
 
         public static void ZeraContador()
