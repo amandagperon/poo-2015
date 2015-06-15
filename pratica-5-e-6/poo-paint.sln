@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poo-paint", "poo-paint\poo-paint.csproj", "{4FBD3DB7-8B45-4669-BD85-0556D2DFC6F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testes", "testes\testes.csproj", "{538394BA-9B8E-4AFF-B8C1-E10278F1F245}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FBD3DB7-8B45-4669-BD85-0556D2DFC6F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FBD3DB7-8B45-4669-BD85-0556D2DFC6F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FBD3DB7-8B45-4669-BD85-0556D2DFC6F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FBD3DB7-8B45-4669-BD85-0556D2DFC6F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{538394BA-9B8E-4AFF-B8C1-E10278F1F245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538394BA-9B8E-4AFF-B8C1-E10278F1F245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538394BA-9B8E-4AFF-B8C1-E10278F1F245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538394BA-9B8E-4AFF-B8C1-E10278F1F245}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
