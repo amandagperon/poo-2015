@@ -21,5 +21,9 @@ namespace poo_paint
         public virtual void Desenha(Graphics g)
         {
         }
+        public virtual string GeraLinhaArquivo()
+        {
+            return "Figura(x, y, l, a)";
+        }
     }
 }

@@ -46,5 +46,9 @@ namespace poo_paint
         {
             g.DrawRectangle(Pens.Black, px, py, bretangulo, hretangulo);
         }
+        public override string GeraLinhaArquivo()
+        {
+            return "Retangulo\r\n" + px + "\r\n" + py + "\r\n" + bretangulo + "\r\n" + hretangulo;
+        }
     }
 }

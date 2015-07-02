@@ -41,5 +41,9 @@ namespace poo_paint
            {
                g.DrawEllipse(Pens.Black, px, py, (this.raio * 2), (this.raio * 2));
            }
+           public override string GeraLinhaArquivo()
+           {
+               return "Circulo\r\n" + px + "\r\n" + py + "\r\n" + this.raio;
+           }
     }
  }
